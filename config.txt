@@ -1,0 +1,16 @@
+-- Configuração do GIT
+git config --global user.name LorenTangi
+git config --global user.email lorentangi24@gmail.com
+
+-- Criar o projeto
+npx create-expo-app@latest rarenDelivery
+
+-- Limpando o template
+cd RarenDelivery
+npm run reset-project           pressionar n
+
+-- Criar uma pasta constants
+-- Criar um arquivo Colors.ts na pasta constants
+
+-- Criar uma pasta components
+-- Criar um arquivo CustomHeader.tsx e executar rnfs
